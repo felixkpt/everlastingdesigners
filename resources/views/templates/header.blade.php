@@ -17,7 +17,7 @@
     <script src="{{ asset('js/flowbite.js') }}"></script>
     @if ($_SERVER['HTTP_HOST'] != 'localhost' && (!Auth::user() || !Auth::user()->hasRole('Admin')))
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TW0XE13E2C"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQHV6P32F5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -26,7 +26,7 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'G-TW0XE13E2C');
+        gtag('config', 'G-QQHV6P32F5');
     </script>
     @endif
     @if (isset($require_editor) && $require_editor)
